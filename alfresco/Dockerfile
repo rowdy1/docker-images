@@ -95,9 +95,14 @@ LABEL org.freenas.interactive="false"				\
               \"descr\": \"username to use when connecting to the database; default = alfresco\",	\
               \"optional\": true				\
           },							\
+		  {							\
+              \"env\": \"DB_PORT\",			\
+              \"descr\": \"port of the database server; default = 5432\",	\
+              \"optional\": true				\
+          },	                        \
           {							\
               \"env\": \"FTP_PORT\",			\
-              \"descr\": \"port of the database server; default = 5432\",	\
+              \"descr\": \"port of the ftp server; default = 5432\",	\
               \"optional\": true				\
           },							\
           {							\
