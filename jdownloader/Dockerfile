@@ -18,11 +18,13 @@ LABEL org.freenas.interactive="false"				\
           {							\
               \"env\": \"JDOWNLOADER_GID\",			\
               \"descr\": \"PGID assigned upon creation\",	\
+			  \"value\": \"1000\",	\
               \"optional\": true				\
           },							\
           {							\
               \"env\": \"JDOWNLOADER_UID\",			\
               \"descr\": \"PUID assigned upon creation\",	\
+			  \"value\": \"3000\",	\
               \"optional\": true				\
           }							\
       ]"        
