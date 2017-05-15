@@ -1,5 +1,6 @@
-FROM auchida/freebsd:latest
+FROM ptomulik/freebsd-ports:latest
 LABEL org.freenas.interactive="true" \
       org.freenas.command="/bin/sh" \
       org.freenas.version="2" \
       org.freenas.upgradeable="false"
+
