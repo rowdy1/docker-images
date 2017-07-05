@@ -1,4 +1,4 @@
-FROM selenium/hub:3.4.0-einsteinium
+FROM selenium/hub:latest
 LABEL org.freenas.interactive="true"                        \
       org.freenas.command="/opt/bin/entry_point.sh"         \
       org.freenas.version="3.4.0-einsteinium"               \
